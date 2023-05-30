@@ -3,6 +3,8 @@
 
 ## Comments still need to be implemented.
 
+Created in tandem with Jordan - Peer.
+
  If you do not have the code start here, if you do skip to 2
     Download the code or move the code you have to a computer that is currently acceptable with the given documented requirements to use.
 

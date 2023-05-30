@@ -4,7 +4,7 @@ def Checker():
        user_input = input("Please put a number: ")
    return user_input
 
-
+print("Welcome! Please use the multiplication table whenever needed! Enjoy.")
 print("Give me a multiplicand")
 Multiplicand = int(Checker())
 print("You have given", Multiplicand)
