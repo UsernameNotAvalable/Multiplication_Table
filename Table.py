@@ -4,6 +4,11 @@ def Checker():
        user_input = input("Please put a number: ")
    return user_input
 
+
+def Finished():
+    task_done = input ("When you are finished reading, please press enter to end program.")
+
+
 print("Welcome! Please use the multiplication table whenever needed! Enjoy.")
 print("Give me a multiplicand")
 Multiplicand = int(Checker())
@@ -28,3 +33,5 @@ Product = Multiplicand * Multiplier
 for i in range (Multiplicand, Times+1):
    Math = i * Multiplier
    print(i, "x", Multiplier, "=", Math)
+
+Finished()
