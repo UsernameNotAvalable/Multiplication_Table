@@ -1,8 +1,6 @@
 # Multiplication_Table
  Multiplication program for Assessment Cyber Automation Cluster
 
-## Comments still need to be implemented.
-
 Created in tandem with Jordan - Peer.
 
  If you do not have the code start here, if you do skip to 2
