@@ -1,9 +1,9 @@
 #Input check for the integer inputs for each multiplicand / multiplier and times.
 def Checker():
-   user_input = input(": ")
-   while user_input.isdigit() == False:
-       user_input = input("Please put a positive number: ")
-   return user_input
+    user_input = input(": ")
+    while user_input.isdigit() == False:
+        user_input = input("Please put a positive number: ")
+    return user_input
 
 
 #placed for double-click usage of code, keeps the terminal open for reading of multiplication table.
@@ -26,15 +26,15 @@ print("Give me a range / times of multiplication")
 Times = (Checker())
 
 
-def CheckerWithoutInput(Times):
-   user_input = Times()
-   while user_input.isdigit() == False:
-       user_input = input("Please put a positive number: ")
-   return user_input
+def CheckerWithoutInput(user_input):
+    while user_input.isdigit() == False:
+        user_input = input("Please put a positive number: ")
+    return user_input
+
 
 while Times < Multiplicand:
     Times = input("Please make sure your range or Times is higher than your Multiplicand.")
-    Times = CheckerWithoutInput()
+    Times = CheckerWithoutInput(Times)
 
 print("You have given", Times)
 
